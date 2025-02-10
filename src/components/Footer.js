@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     return (
         <footer>
-            <p>© 2025 My React App. All rights reserved.</p>
+            <p>© 2025 WeakyStar. All rights reserved.</p>
         </footer>
     );
 }
