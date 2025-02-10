@@ -89,15 +89,16 @@ function App() {
         <>
             <Navbar />
             <Routes>
-                {/*
                 <Route path="/weaky.star/" element={<Navigate to="/weaky.star/home" />} />
                 <Route path="/home" element={<Navigate to="/weaky.star/home" />} />
                 <Route path="/" element={<Navigate to="/weaky.star/home" />} />
+
                 <Route path="/weaky.star/home" element={<Home />} />
-                */}
-                
-                <Route path="/home" element={<Home />} />
-                <Route path="/about" element={<About />} />
+
+
+                <Route path="/about" element={<Navigate to="/weaky.star/about" />} />
+
+                <Route path="/weaky.star/about" element={<About />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
