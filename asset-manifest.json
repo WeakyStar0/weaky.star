@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/weaky.star/static/css/main.8e4fdb84.css",
+    "main.js": "/weaky.star/static/js/main.dd36ab1f.js",
+    "index.html": "/weaky.star/index.html",
+    "main.8e4fdb84.css.map": "/weaky.star/static/css/main.8e4fdb84.css.map",
+    "main.dd36ab1f.js.map": "/weaky.star/static/js/main.dd36ab1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e4fdb84.css",
+    "static/js/main.dd36ab1f.js"
+  ]
+}
