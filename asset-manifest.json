@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/weaky.star/static/css/main.d91e7d91.css",
-    "main.js": "/weaky.star/static/js/main.855f19a3.js",
+    "main.js": "/weaky.star/static/js/main.725dd6b3.js",
     "index.html": "/weaky.star/index.html",
     "main.d91e7d91.css.map": "/weaky.star/static/css/main.d91e7d91.css.map",
-    "main.855f19a3.js.map": "/weaky.star/static/js/main.855f19a3.js.map"
+    "main.725dd6b3.js.map": "/weaky.star/static/js/main.725dd6b3.js.map"
   },
   "entrypoints": [
     "static/css/main.d91e7d91.css",
-    "static/js/main.855f19a3.js"
+    "static/js/main.725dd6b3.js"
   ]
 }
