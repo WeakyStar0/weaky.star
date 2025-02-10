@@ -1,14 +1,14 @@
 .home-container {
-    transform: translateY(7vh);
+    transform: translateY(3.5rem);
     display: flex;
     min-height: 100vh;
 }
 
 .sidebar {
-    width: 12vw;
+    width: 15rem;
     background-color: #13101c;
     color: white;
-    padding: 2vh 2vw;
+    padding: 2rem 2rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +18,7 @@
 
 .sidebar h2 {
     text-align: center;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 .sidebar ul {
@@ -27,17 +27,17 @@
 }
 
 .sidebar ul li {
-    margin: 0vh 0; /* Relative margin */
+    margin: 0rem 0; /* Relative margin */
 }
 
 .sidebar ul li a {
     color: white;
     text-decoration: none;
     display: block;
-    padding: 0.5vh 2vw;
-    border-radius: 0.3vw;
+    padding: 0.3rem 2rem;
+    border-radius: 0.3rem;
     transition: background-color 0.3s;
-    font-size: 0.8vw;
+    font-size: 1rem;
 }
 
 .sidebar ul li a:hover {
@@ -45,21 +45,21 @@
 }
 
 .main-content {
-    margin-left: 16vw; /* Adjusted for sidebar width */
-    padding: 2vh 2vw;
+    margin-left: 16rem; /* Adjusted for sidebar width */
+    padding: 2rem 2rem;
     width: 100%;
 }
 
 .main-content h1 {
-    font-size: 2vw; /* Relative font size */
+    font-size: 2.5rem;
 }
 
 .main-content h3 {
-    font-size: 1vw; /* Relative font size */
-    margin-top: 2vh; /* Relative margin */
+    font-size: 1rem;
+    margin-top: 2rem; /* Relative margin */
 }
 
 .main-content p {
-    font-size: 0.8vw; /* Relative font size */
+    font-size: 1rem;
     margin-top: 1vh; /* Relative margin */
 }
