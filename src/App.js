@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -86,7 +86,7 @@ function NotFound() {
 
 function App() {
     return (
-        <>
+        <Router>
             <Navbar />
             <Routes>
                 <Route path="/weaky.star/" element={<Navigate to="/weaky.star/home" />} />
@@ -98,7 +98,7 @@ function App() {
                 <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
-        </>
+        </Router>
     );
 }
 
