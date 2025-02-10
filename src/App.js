@@ -86,7 +86,7 @@ function NotFound() {
 
 function App() {
     return (
-        <Router>
+        <>
             <Navbar />
             <Routes>
                 <Route path="/weaky.star/" element={<Navigate to="/weaky.star/home" />} />
@@ -98,7 +98,7 @@ function App() {
                 <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
-        </Router>
+        </>
     );
 }
 
