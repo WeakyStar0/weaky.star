@@ -1,15 +1,28 @@
 body {
-    background-color: rgb(32, 28, 44);
+    background-color: #201c2c;
     color: white;
 }
 
 .navbar {
     background-color: rgb(55, 47, 82) !important;
-    box-shadow: 0rem 0.1rem 1rem rgb(0, 0, 0) !important;
-    height: 5vh !important;
+    box-shadow: 0rem 0.1rem 1rem rgba(0, 0, 0, 0.5) !important;
+}
+
+.navbar .navbar-brand img {
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5vw;
+}
+
+.navbar a {
+    font-size: 1rem !important;
 }
 
 .footer {
     background-color: rgb(55, 47, 82) !important;
-    box-shadow: 0rem 0.1rem 1rem rgb(0, 0, 0) !important;
+    box-shadow: 0rem 0.1rem 1rem rgba(0, 0, 0, 0.5) !important;
+    height: 10vh !important;
+    font-size: 0.7vw !important;
 }

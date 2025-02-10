@@ -17,11 +17,16 @@ function Home() {
 
             {/* Main content area */}
             <div className="main-content">
-                <h1>Welcome to My Website!</h1>
-                <p>This is the home page.</p>
+                <h1>Hello there!</h1>
+                <p>🚧 <strong>This website is currently under construction.</strong> 🚧<br /><br />
+                    You might want to check it out another time.<br />
+                    Either way, thanks for being here.</p>
 
-                {/* Sections */}
-                <div id="section1">
+                {/*
+                
+                Sections
+                
+                                <div id="section1">
                     <h3>Section 1</h3>
                     <p>This is section 1.</p>
                 </div>
@@ -37,6 +42,9 @@ function Home() {
                     <h3>Section 4</h3>
                     <p>This is section 4.</p>
                 </div>
+                
+                */}
+
             </div>
         </div>
     );

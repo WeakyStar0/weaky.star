@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../img/main logo.png";
 
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">My Website</Link>
+                <Link className="navbar-brand" to="/" style={{ fontFamily: "Impact, sans-serif" }}>
+                    <img src={Logo} alt="Logo" />
+                    Weaky.star
+                </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
