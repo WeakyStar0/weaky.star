@@ -2,3 +2,14 @@ body {
     background-color: rgb(32, 28, 44);
     color: white;
 }
+
+.navbar {
+    background-color: rgb(55, 47, 82) !important;
+    box-shadow: 0rem 0.1rem 1rem rgb(0, 0, 0) !important;
+    height: 5vh !important;
+}
+
+.footer {
+    background-color: rgb(55, 47, 82) !important;
+    box-shadow: 0rem 0.1rem 1rem rgb(0, 0, 0) !important;
+}
