@@ -1,4 +1,5 @@
 import React from "react";
+import Loader from '../components/loader';
 import "../styles/Home.css";
 
 function Home() {
@@ -21,6 +22,8 @@ function Home() {
                 <p>🚧 <strong>This website is currently under construction.</strong> 🚧<br /><br />
                     You might want to check it out another time.<br />
                     Either way, thanks for being here.</p>
+
+                    <Loader />
 
                 {/*
                 
